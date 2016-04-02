@@ -10,4 +10,6 @@ void search_route(char *topo[5000], int edge_num, char *demand)
 
     for (int i = 0; i < 3; i++)
         record_result(result[i]);
+
+    printf("Hello world!\n");
 }
